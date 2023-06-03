@@ -1,0 +1,106 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+
+  body {
+      font-family: 'Inconsolata', monospace;
+      background: url(/src/bg.jpg) no-repeat;
+      background-size: cover;
+      color: black;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0 30px;
+
+  }
+
+  .quiz-container {
+      width: 500px;
+      height: 500px;
+      background-color: white;
+      border-radius: 4px;
+      margin-top: 100px;
+      padding: 30px 60px;
+  }
+
+  .quiz-container .active-question-no {
+      font-size: 32px;
+      font-weight: 500;
+      color: rgb(116, 116, 232);
+  }
+
+  .quiz-container .total-question {
+      font-size: 16px;
+      font-weight: 500;
+      color: #a293b8;
+  }
+
+  .quiz-container h2 {
+      font-size: 20px;
+      font-weight: 500;
+      padding-top: 20px;
+      margin: 0;
+  }
+
+  .quiz-container ul {
+      margin-top: 20px;
+      margin-left: -40px;
+  }
+
+  .quiz-container ul li {
+      text-decoration: none;
+      list-style: none;
+      color: rgb(1, 1, 27);
+      font-size: 16px;
+      background: white;
+      border: 1px solid rgba(227, 230, 237, 0.144);
+      border-radius: 16px;
+      padding: 11px;
+      margin-top: 15px;
+      cursor: pointer;
+  }
+
+  .quiz-container ul .selected-answer {
+      background: #aca6eb;
+      border: 1px solid #bdbfea;
+
+  }
+
+  .quiz-container button {
+      background: rgb(125, 102, 220);
+      border-radius: 9px;
+      font-size: 18px;
+      color: white;
+      padding: 10px 42px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+
+  }
+
+  .quiz-container button:disabled {
+      background: #e7e8e9;
+      color: #a293b8;
+      cursor: not-allowed;
+  }
+
+  .flex-right {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .result h3 {
+      font-size: 24px;
+      letter-spacing: 1.4px;
+      text-align: center;
+
+  }
+
+  .result p {
+      font-size: 16px;
+      font-weight: 500;
+  }
+
+  .result p span {
+      color: rgb(36, 36, 129);
+      font-size: 22px;
+  }
